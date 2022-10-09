@@ -388,15 +388,15 @@
         .models_title{
             width: 100%;
             font-size: 18px;
-            left: -5%;
+            left:-5%;
         }
 
         .available_models{
             display: grid;
             grid-template-columns: auto auto auto;
             padding: 2px;
-            width: 90%;
             top: 130%;
+            width: 90%;
             left: 0;
         }
 
