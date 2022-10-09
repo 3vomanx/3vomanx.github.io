@@ -370,7 +370,7 @@
         .offer_text{
             width: 85%;
             height: 70vh;
-            left: 4%;
+            left: 5%;
             top: 15%;
             display: flex;
             flex-direction: column;
@@ -379,11 +379,16 @@
         .offer1,.offer2,.offer3,.offer4{
             width: 80%;
             height: 10vh;
-
         }
 
         .background_img{
             width: 100%;
+        }
+
+        .models_title{
+            width: 100%;
+            font-size: 18px;
+            left: -5%;
         }
 
         .available_models{
@@ -391,6 +396,7 @@
             grid-template-columns: auto auto auto;
             padding: 2px;
             width: 90%;
+            top: 130%;
             left: 0;
         }
 
