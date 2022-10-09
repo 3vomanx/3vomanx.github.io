@@ -361,8 +361,9 @@
 
       @media screen and (max-width:426px){
         nav{
-            width: 100%;
+           width: 100%;
         }
+        
         .offer_text p{
             font-size: 20px;
         }
@@ -370,7 +371,7 @@
         .offer_text{
             width: 85%;
             height: 70vh;
-            left: 5%;
+            left: 2%;
             top: 15%;
             display: flex;
             flex-direction: column;
@@ -379,6 +380,7 @@
         .offer1,.offer2,.offer3,.offer4{
             width: 80%;
             height: 10vh;
+
         }
 
         .background_img{
@@ -388,7 +390,7 @@
         .models_title{
             width: 100%;
             font-size: 18px;
-            left:-5%;
+            left: -5%;
         }
 
         .available_models{
@@ -413,8 +415,8 @@
         }
 
         .category_list{
-            top: 10%;
-            display: flex;
+            top: 7%;
+            display:flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -428,10 +430,5 @@
             color:black;
             margin-left: 10%;
         }
-
-        
-
-
-
 
       }
