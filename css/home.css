@@ -60,12 +60,10 @@
         padding: 0 20px;
     }
     
-    nav .logo a {
-        font-size: 30px;
-        color: var(--lia);
-        text-decoration: none;
-        font-weight: 600;
-    }
+    nav .logo img {
+        width: 150px;
+        height: 30px; 
+       }
     
     .menu ul {
         display: inline-flex;
