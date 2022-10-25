@@ -358,8 +358,16 @@
       }
 
       @media screen and (max-width:426px){
+
         nav{
            width: 100%;
+        }
+
+        nav .logo a {
+            font-size: 25px;
+            color: var(--lia);
+            text-decoration: none;
+            font-weight: 600;
         }
 
         .offer_text p{
