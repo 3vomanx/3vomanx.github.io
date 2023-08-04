@@ -10,9 +10,7 @@ var express = require("express"),
     temp_partner,
     num_users=0;
 
-    app.use(express.static(distDir));
-
-
+app.use('/static',express.static(__dirname+"/static"));
 // app.use('/emoji/images',express.static(__dirname+"/node_modules/emoji-parser/emoji/"));
 
 app.get('/', function(req, res){
