@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84158236-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-84158236-3');
+</script>
+
+    <title>Test-Chat @trojanist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" media="screen" href="static/css/bootstrap.min.css" />
+	<link rel="stylesheet" media="screen" href="static/css/main.css" />
+	<link rel="stylesheet" media="screen" href="static/css/lights.css" />
+	<link rel="stylesheet" href="static/css/emojionearea.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@3.1.2/extras/css/emojione.min.css"/>
+	
+</head>
+
+<body>
+	<canvas id="canvas"></canvas>
+	<ul class="lightrope">
+			<li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+	</ul>
+	<div id="bodyDiv">
+		<br><br><br>
+		<div class="row">
+			<div class="col-xs-6 col-sm-12">
+				<h1 class="chattitle text-center no-margin">Test-Chat @trojanist</h1>
+			</div>
+		</div>
+		<div id = "outerdiv">
+			<div id="messagediv">
+				<div id = "messages"></div>
+				<div id = "newMessage">
+					<form id='msgform' onsubmit="return submitForm()">
+						<input type="text" id="m" autocomplete="off" placeholder="Wait for partner to join"/>
+						<button id="submitButton"> <i class="fa fa-send-o"></i></button>
+						<label id="istyping">Partner is typing...</label>
+					</form>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/emojione@3.1.2/lib/js/emojione.min.js"></script>
+	<script src="static/js/main.js"></script>
+    <script type="text/javascript" src="static/js/emojionearea.min.js"></script>
+</body>
+
+</html>
