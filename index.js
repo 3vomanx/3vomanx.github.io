@@ -13,9 +13,9 @@ var express = require("express"),
 app.use('/static',express.static(__dirname+"/static"));
 // app.use('/emoji/images',express.static(__dirname+"/node_modules/emoji-parser/emoji/"));
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build/index.html'));
-  });
+app.get('/', function(req, res){
+    res.sendFile(__dirname + '/index.html');
+});
 
 // emoji.init().update();
 
